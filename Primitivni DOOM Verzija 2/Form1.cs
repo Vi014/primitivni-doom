@@ -12,7 +12,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
     public partial class Form1 : Form
     {
         Random spawn = new Random();
-        Int32 sampletext, pojeni = 0, dobri, loshi, tut = 1, ukupni, mode, sekunde = 0, minuti = 0;
+        Int32 sampletext, pojeni = 0, dobri, loshi, ukupni, mode, tut = 1, sekunde = 0, minuti = 0;
         Boolean ukljucenost = false;
 
         public Form1()
@@ -311,7 +311,6 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             timer9.Enabled = true;
             ukljucenost = true;
             mode = tut = 1;
-            timer10.Enabled = true;
             button1.Enabled = button1.Visible = button7.Enabled = button7.Visible = button6.Enabled = button6.Visible = false;
             button2.Enabled = button2.Visible = true;
             pojeni = dobri = loshi = ukupni = 0;
@@ -333,17 +332,26 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
                 label2.Text = "SkorE: " + pojeni.ToString();
             }
             // TUTORIJAL MOD
-
             if (mode == 1)
             {
-                if (loshi == 5 && tut == 1)
+                if (loshi == 5)
                 {
-                    timer10.Enabled = true;
+                    if (tut == 1)
+                    {
+                        MessageBox.Show("A ovo su dobri likovi. Kada upucate dobrog lika, vas skor se smanjuje za 1.");
+                        dobar1.Visible = dobar1.Enabled = dobar2.Visible = dobar2.Enabled = dobar3.Visible = dobar3.Enabled = true;
+                    }
                     tut = 2;
                 }
-                if (dobri == 3 && tut == 2)
+                if (dobri == 3)
                 {
-                    timer11.Enabled = true;
+                    if (tut == 2)
+                    {
+                        button2.PerformClick();
+                        button4.PerformClick();
+                        MessageBox.Show("Igrica ima pet moda:\nTutoriJal mod ste upravo odigrali\nBeskonacni mod traje sve dok igrac ne zavrsi igru\n100 Metaka mod traje sve dog igrac ne potrosi 100 metaka.\n-5 PoJena mod traje sve dog igrac ne dodje do -5 PoJena.\n10 Minuta mod traje dok 10 minuta ne prodje\n...i to je to!");
+                        //timer8.Enabled = false;
+                    }
                     tut = 3;
                 }
             }
@@ -477,23 +485,6 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void Form1_Load(object sender, EventArgs e)
         { 
-        }
-
-        private void timer10_Tick(object sender, EventArgs e)
-        {
-            //Tutorijal - prelazak iz dela o loshim u deo o dobrim
-            MessageBox.Show("A ovo su dobri likovi. Kada upucate dobrog lika, vas skor se smanjuje za 1.");
-            dobar1.Visible = dobar1.Enabled = dobar2.Visible = dobar2.Enabled = dobar3.Visible = dobar3.Enabled = true;
-            timer10.Enabled = false;
-        }
-
-        private void timer11_Tick(object sender, EventArgs e)
-        {
-            //Tutorijal - kraj
-            button2.PerformClick();
-            button4.PerformClick();
-            MessageBox.Show("Igrica ima pet moda:\nTutoriJal mod ste upravo odigrali\nBeskonacni mod traje sve dok igrac ne zavrsi igru\n100 Metaka mod traje sve dog igrac ne potrosi 100 metaka.\n-5 PoJena mod traje sve dog igrac ne dodje do -5 PoJena.\n10 Minuta mod traje dok 10 minuta ne prodje\n...i to je to!");
-            timer11.Enabled = false;
         }
     }
 }

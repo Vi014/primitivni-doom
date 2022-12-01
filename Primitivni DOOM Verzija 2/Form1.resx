@@ -7557,12 +7557,6 @@
     <value>615, 3</value>
   </metadata>
   <metadata name="timer9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>110, 48</value>
-  </metadata>
-  <metadata name="timer10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>338, 11</value>
-  </metadata>
-  <metadata name="timer11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>418, 11</value>
+    <value>17, 48</value>
   </metadata>
 </root>

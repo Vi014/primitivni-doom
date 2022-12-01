@@ -64,8 +64,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timer9 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
-            this.timer10 = new System.Windows.Forms.Timer(this.components);
-            this.timer11 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dobar3)).BeginInit();
@@ -416,16 +414,6 @@
             this.label2.TabIndex = 45;
             this.label2.Text = "SkorE: 0";
             // 
-            // timer10
-            // 
-            this.timer10.Interval = 1;
-            this.timer10.Tick += new System.EventHandler(this.timer10_Tick);
-            // 
-            // timer11
-            // 
-            this.timer11.Interval = 1;
-            this.timer11.Tick += new System.EventHandler(this.timer11_Tick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -514,8 +502,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer9;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Timer timer10;
-        private System.Windows.Forms.Timer timer11;
 
     }
 }

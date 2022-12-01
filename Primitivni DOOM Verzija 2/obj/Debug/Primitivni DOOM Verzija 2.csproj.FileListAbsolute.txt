@@ -8,11 +8,3 @@ C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni 
 C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
 F:\Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
 F:\Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
-F:\si sharp\17 Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
-F:\si sharp\17 Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
-F:\si sharp\17 Zavrsni DOOM\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM Verzija 2.exe
-F:\si sharp\17 Zavrsni DOOM\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM Verzija 2.pdb
-F:\si sharp\17 Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\ResolveAssemblyReference.cache
-F:\si sharp\17 Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Form1.resources
-F:\si sharp\17 Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Properties.Resources.resources
-F:\si sharp\17 Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.GenerateResource.Cache
