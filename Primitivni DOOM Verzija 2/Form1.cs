@@ -18,94 +18,128 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
         public Form1()
         {
             InitializeComponent();
+            this.AllowTransparency = true;
+            //
+            //
+            mlgPozadina420.Controls.Add(DobarLik1);
+            DobarLik1.BackColor = Color.Transparent;
+            //
+            mlgPozadina420.Controls.Add(DobarLik2);
+            DobarLik2.BackColor = Color.Transparent;
+            //
+            mlgPozadina420.Controls.Add(DobarLik3);
+            DobarLik3.BackColor = Color.Transparent;
+            //
+            //
+            mlgPozadina420.Controls.Add(LoshiLik1);
+            LoshiLik1.BackColor = Color.Transparent;
+            //
+            mlgPozadina420.Controls.Add(LoshiLik2);
+            LoshiLik2.BackColor = Color.Transparent;
+            //
+            mlgPozadina420.Controls.Add(LoshiLik3);
+            LoshiLik3.BackColor = Color.Transparent;
+            //
+            mlgPozadina420.Controls.Add(LoshiLik4);
+            LoshiLik4.BackColor = Color.Transparent;
+            //
+            mlgPozadina420.Controls.Add(LoshiLik5);
+            LoshiLik5.BackColor = Color.Transparent;
+            //
+            //
+            mlgPozadina420.Controls.Add(pictureBox1);
+            pictureBox1.BackColor = Color.Transparent;
+            //
+            mlgPozadina420.Controls.Add(pictureBox2);
+            pictureBox2.BackColor = Color.Transparent;
         }
 
-        private void teror5_Click(object sender, EventArgs e)
+        private void LoshiLik1_Click(object sender, EventArgs e)
         {
             pojeni = pojeni + 1;
             loshi = loshi + 1;
             ukupni = ukupni + 1;
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
             timer7.Enabled = true;
-            teror5.Enabled = teror5.Visible = false;
+            LoshiLik1.Enabled = LoshiLik1.Visible = false;
         }
 
-        private void teror4_Click(object sender, EventArgs e)
+        private void LoshiLik2_Click(object sender, EventArgs e)
         {
             pojeni = pojeni + 1;
             loshi = loshi + 1;
             ukupni = ukupni + 1;
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
             timer7.Enabled = true;
-            teror4.Enabled = teror4.Visible = false;
+            LoshiLik2.Enabled = LoshiLik2.Visible = false;
         }
 
-        private void teror3_Click(object sender, EventArgs e)
+        private void LoshiLik3_Click(object sender, EventArgs e)
         {
             pojeni = pojeni + 1;
             loshi = loshi + 1;
             ukupni = ukupni + 1;
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
             timer7.Enabled = true;
-            teror3.Enabled = teror3.Visible = false;
+            LoshiLik3.Enabled = LoshiLik3.Visible = false;
         }
 
-        private void dobar2_Click(object sender, EventArgs e)
+        private void LoshiLik4_Click(object sender, EventArgs e)
+        {
+            pojeni = pojeni + 1;
+            loshi = loshi + 1;
+            ukupni = ukupni + 1;
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            LoshiLik4.Enabled = LoshiLik4.Visible = false;
+        }
+
+        private void LoshiLik5_Click(object sender, EventArgs e)
+        {
+            pojeni = pojeni + 1;
+            loshi = loshi + 1;
+            ukupni = ukupni + 1;
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            LoshiLik5.Enabled = LoshiLik5.Visible = false;
+        }
+
+        private void DobarLik1_Click(object sender, EventArgs e)
         {
             pojeni = pojeni - 1;
             dobri = dobri + 1;
             ukupni = ukupni + 1;
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
             timer7.Enabled = true;
-            dobar2.Enabled = dobar2.Visible = false;
+            DobarLik1.Enabled = DobarLik1.Visible = false;
         }
 
-        private void teror2_Click(object sender, EventArgs e)
-        {
-            pojeni = pojeni + 1;
-            loshi = loshi + 1;
-            ukupni = ukupni + 1;
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            teror2.Enabled = teror2.Visible = false;
-        }
-
-        private void dobar3_Click(object sender, EventArgs e)
+        private void DobarLik2_Click(object sender, EventArgs e)
         {
             pojeni = pojeni - 1;
             dobri = dobri + 1;
             ukupni = ukupni + 1;
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
             timer7.Enabled = true;
-            dobar3.Enabled = dobar3.Visible = false;
+            DobarLik2.Enabled = DobarLik2.Visible = false;
         }
 
-        private void teror1_Click(object sender, EventArgs e)
-        {
-            pojeni = pojeni + 1;
-            loshi = loshi + 1;
-            ukupni = ukupni + 1;
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            teror1.Enabled = teror1.Visible = false;
-        }
-
-        private void dobar1_Click(object sender, EventArgs e)
+        private void DobarLik3_Click(object sender, EventArgs e)
         {
             pojeni = pojeni - 1;
             dobri = dobri + 1;
             ukupni = ukupni + 1;
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
             timer7.Enabled = true;
-            dobar1.Enabled = dobar1.Visible = false;
+            DobarLik3.Enabled = DobarLik3.Visible = false;
         }
 
         private void mlgPozadina420_Click(object sender, EventArgs e)
@@ -116,180 +150,162 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             timer7.Enabled = true; 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void StartButton_Click(object sender, EventArgs e)
         {
-            // Version history dugme
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
-            timer7.Enabled = true;
             pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
             timer7.Enabled = true;
-            MessageBox.Show("VERZIJA 0:\n-Inicijalna BETA verzija\n-----------------\nVERZIJA 1:\n-Inicijalna dovrsena verzija\n-----------------\nVERZIJA 2:\n-Projekat je nov i zove se drugacije\n-VersiJon Histori dugme\n-Odvojeno brojanje ukupnog broja pogodaka, broja pogodaka dobrih i broja pogodaka loshih\n-Promenjene pozicije likova\n-Dodat TutoriJal\n-Novi ModeOvi\n-Posle kraja igre svi likovi postaju vidljivi\n-Dodati LabelOvi koji sve vreme pokazuju koliko dugo je igrac igrao i broj PoJena\n-U titleU pishe Primitivni DOOM");
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = true;
+            StartButton.Enabled = StartButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = false;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void NazadButton_Click(object sender, EventArgs e)
         {
-            // Resume dugme
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            StartButton.Enabled = StartButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = true;
+        }
+
+        private void PauseButton_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            ukljucenost = false;
+            spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = timer9.Enabled = false;
+            PauseButton.Enabled = PauseButton.Visible = false;
+            ResumeButton.Enabled = ResumeButton.Visible = ZavrsiButton.Enabled = ZavrsiButton.Visible = true;
+            LoshiLik4.Enabled = LoshiLik5.Enabled = LoshiLik3.Enabled = LoshiLik2.Enabled = LoshiLik1.Enabled = DobarLik1.Enabled = DobarLik3.Enabled = DobarLik2.Enabled = false;
+        }
+
+        private void ResumeButton_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
             timer7.Enabled = true;
             ukljucenost = true;
-            button3.Enabled = button3.Visible = button4.Enabled = button4.Visible = button5.Enabled = button5.Visible = false;
-            button2.Enabled = button2.Visible = true;
-            timer1.Enabled = timer2.Enabled = timer3.Enabled = timer4.Enabled = timer5.Enabled = timer6.Enabled = timer8.Enabled = timer9.Enabled = true;
-            teror1.Enabled = teror2.Enabled = teror3.Enabled = teror4.Enabled = teror5.Enabled = dobar1.Enabled = dobar2.Enabled = dobar3.Enabled = true;
+            ResumeButton.Enabled = ResumeButton.Visible = ZavrsiButton.Enabled = ZavrsiButton.Visible = false;
+            PauseButton.Enabled = PauseButton.Visible = true;
+            spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = timer8.Enabled = timer9.Enabled = true;
+            LoshiLik1.Enabled = LoshiLik2.Enabled = LoshiLik3.Enabled = LoshiLik4.Enabled = LoshiLik5.Enabled = DobarLik1.Enabled = DobarLik2.Enabled = DobarLik3.Enabled = true;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ZavrsiButton_Click(object sender, EventArgs e)
         {
-            // Dugme za pauzu
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
             timer7.Enabled = true;
             ukljucenost = false;
-            timer1.Enabled = timer2.Enabled = timer3.Enabled = timer4.Enabled = timer5.Enabled = timer6.Enabled = timer9.Enabled = false;
-            button2.Enabled = button2.Visible = false;
-            button3.Enabled = button3.Visible = button4.Enabled = button4.Visible = button5.Enabled = button5.Visible = true;
-            teror1.Enabled = teror2.Enabled = teror3.Enabled = teror4.Enabled = teror5.Enabled = dobar1.Enabled = dobar2.Enabled = dobar3.Enabled = false;
+            LoshiLik4.Enabled = LoshiLik4.Visible = LoshiLik5.Enabled = LoshiLik5.Visible = LoshiLik3.Visible = LoshiLik3.Enabled = LoshiLik2.Visible = LoshiLik2.Enabled = LoshiLik1.Visible = LoshiLik1.Enabled = DobarLik1.Visible = DobarLik1.Enabled = DobarLik3.Visible = DobarLik3.Enabled = DobarLik2.Visible = DobarLik2.Enabled = true;
+            StartButton.Enabled = StartButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = true;
+            ResumeButton.Visible = ResumeButton.Enabled = ZavrsiButton.Visible = ZavrsiButton.Enabled = false;
+            spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = timer9.Enabled = false;
+            MessageBox.Show("G A M E  O V E R");
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void HistoryButton_Click(object sender, EventArgs e)
         {
-            // Zavrsi igru dugme
-            pictureBox1.Visible = false;
             pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            ukljucenost = false;
-            teror1.Enabled = teror1.Visible = teror2.Enabled = teror2.Visible = teror3.Visible = teror3.Enabled = teror4.Visible = teror4.Enabled = teror5.Visible = teror5.Enabled = dobar1.Visible = dobar1.Enabled = dobar2.Visible = dobar2.Enabled = dobar3.Visible = dobar3.Enabled = true;
-            button1.Enabled = button1.Visible = button6.Enabled = button6.Visible = button7.Enabled = button7.Visible = true;
-            button3.Visible = button3.Enabled = button4.Visible = button4.Enabled = button5.Visible = button5.Enabled = false;
-            timer1.Enabled = timer2.Enabled = timer3.Enabled = timer4.Enabled = timer5.Enabled = timer6.Enabled = timer9.Enabled = false;
-            MessageBox.Show("Game over :( \nRezultat: " + pojeni.ToString() + "\nUkupan broj potrosenih metaka vam je: " + ukupni.ToString() + "\nBroj dobrih koje ste pogodili: " + dobri.ToString() + "\nBroj loshih koje ste pogodili: " + loshi.ToString());
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            // Start dugme
             pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
             timer7.Enabled = true;
-            button8.Enabled = button8.Visible = button9.Enabled = button9.Visible = button10.Enabled = button10.Visible = button11.Enabled = button11.Visible = button12.Enabled = button12.Visible = true;
-            button1.Enabled = button1.Visible = button7.Enabled = button7.Visible = button6.Enabled = button6.Visible = false;
+            MessageBox.Show("VERZIJA 0:\n-Inicijalna BETA verzija\n-----------------\nVERZIJA 1:\n-Inicijalna dovrsena verzija\n-----------------\nVERZIJA 2:\n-Projekat je nov i zove se drugacije\n-VersiJon Histori dugme\n-Odvojeno brojanje ukupnog broja pogodaka, broja pogodaka dobrih i broja pogodaka loshih\n-Promenjene pozicije likova\n-Dodat TutoriJal\n-Novi ModeOvi\n-Posle kraja igre svi likovi postaju vidljivi\n-Dodati LabelOvi koji sve vreme pokazuju koliko dugo je igrac igrao i broj PoJena\n-U titleU pishe Primitivni DOOM\n-----------------\nVERZIJA 3:\n-Razne promene u kodu programa radi citljivosti\n-Uklonjen -5 PoJena mode\n-Uklonjeno dugme za pregled SkorEa\n-Dodat status bar kao zamena za SkorE dugme\n-Novi raspored dugmica\n-Projekat pravljen u Visual Studio Express 2010\n-Sve slike su sada uzete iz FreeDoom-a\n-KONACNO, dodata transparentnost :D\n-Novi raspored protivnika zbog nove pozadine.\n-Dodato ovo upozorenje za TutoriJal mod koji ima bag sa MessageBox-om koji se otvara gomilu puta umesto jedanput :P\n-Igrica ima pravu ikonicu\n-Game over poruka vise ne pokazuje zavrsni SkorE");
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void BeskonacnoButton_Click(object sender, EventArgs e)
         {
-            // Pogledaj PoJene
+            pictureBox2.Visible = true;
             pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
             timer7.Enabled = true;
-            MessageBox.Show("Vas trenutni broj poJena je: " + pojeni.ToString() + "\nUkupan broj potrosenih metaka vam je: " + ukupni.ToString() + "\nBroj dobrih koje ste pogodili: " + dobri.ToString() + "\nBroj loshih koje ste pogodili: " + loshi.ToString());
+            ukljucenost = true;
+            mode = 4;
+            timer9.Enabled = timer8.Enabled = true;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = true;
+            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
+            PauseButton.Enabled = PauseButton.Visible = true;
+            LoshiLik4.Enabled = LoshiLik4.Visible = LoshiLik5.Enabled = LoshiLik5.Visible = LoshiLik3.Visible = LoshiLik3.Enabled = LoshiLik2.Visible = LoshiLik2.Enabled = LoshiLik1.Visible = LoshiLik1.Enabled = DobarLik1.Visible = DobarLik1.Enabled = DobarLik3.Visible = DobarLik3.Enabled = DobarLik2.Visible = DobarLik2.Enabled = false;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void TutorijalButton_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            timer9.Enabled = true;
+            ukljucenost = true;
+            mode = tut = 1;
+            StartButton.Enabled = StartButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = false;
+            PauseButton.Enabled = PauseButton.Visible = true;
+            pojeni = dobri = loshi = ukupni = 0;
+            timer8.Enabled = true;
+            DobarLik1.Enabled = DobarLik1.Visible = DobarLik3.Enabled = DobarLik3.Visible = DobarLik2.Enabled = DobarLik2.Visible = false;
+            LoshiLik4.Enabled = LoshiLik4.Visible = LoshiLik5.Enabled = LoshiLik5.Visible = LoshiLik3.Enabled = LoshiLik3.Visible = LoshiLik2.Enabled = LoshiLik2.Visible = LoshiLik1.Enabled = LoshiLik1.Visible = true;
+            MessageBox.Show("Ovo su loshi likovi. Kada upucate jednog od njih, vas skor se povecava za 1.");
+        }
+
+        private void MetciButton_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            ukljucenost = true;
+            mode = 2;
+            timer8.Enabled = timer9.Enabled = true;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = true;
+            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
+            PauseButton.Enabled = PauseButton.Visible = true;
+            LoshiLik4.Enabled = LoshiLik4.Visible = LoshiLik5.Enabled = LoshiLik5.Visible = LoshiLik3.Visible = LoshiLik3.Enabled = LoshiLik2.Visible = LoshiLik2.Enabled = LoshiLik1.Visible = LoshiLik1.Enabled = DobarLik1.Visible = DobarLik1.Enabled = DobarLik3.Visible = DobarLik3.Enabled = DobarLik2.Visible = DobarLik2.Enabled = false;
+        }
+
+        private void MinutiButton_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            ukljucenost = true;
+            mode = 3;
+            timer8.Enabled = timer9.Enabled = true;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = true;
+            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
+            PauseButton.Enabled = PauseButton.Visible = true;
+            LoshiLik4.Enabled = LoshiLik4.Visible = LoshiLik5.Enabled = LoshiLik5.Visible = LoshiLik3.Visible = LoshiLik3.Enabled = LoshiLik2.Visible = LoshiLik2.Enabled = LoshiLik1.Visible = LoshiLik1.Enabled = DobarLik1.Visible = DobarLik1.Enabled = DobarLik3.Visible = DobarLik3.Enabled = DobarLik2.Visible = DobarLik2.Enabled = false;
+        }
+
+        private void SpawnerTimer_Tick(object sender, EventArgs e)
         {
             sampletext = spawn.Next(1, 9);
             switch (sampletext)
             {
-                case 1: teror1.Visible = teror1.Enabled = true; break;
-                case 2: teror2.Visible = teror2.Enabled = true; break;
-                case 3: teror3.Visible = teror3.Enabled = true; break;
-                case 4: teror4.Visible = teror4.Enabled = true; break;
-                case 5: teror5.Visible = teror5.Enabled = true; break;
-                case 6: dobar1.Visible = dobar1.Enabled = true; break;
-                case 7: dobar2.Visible = dobar2.Enabled = true; break;
-                case 8: dobar3.Visible = dobar3.Enabled = true; break;
+                case 1: LoshiLik4.Visible = LoshiLik4.Enabled = true; break;
+                case 2: LoshiLik5.Visible = LoshiLik5.Enabled = true; break;
+                case 3: LoshiLik3.Visible = LoshiLik3.Enabled = true; break;
+                case 4: LoshiLik2.Visible = LoshiLik2.Enabled = true; break;
+                case 5: LoshiLik1.Visible = LoshiLik1.Enabled = true; break;
+                case 6: DobarLik1.Visible = DobarLik1.Enabled = true; break;
+                case 7: DobarLik3.Visible = DobarLik3.Enabled = true; break;
+                case 8: DobarLik2.Visible = DobarLik2.Enabled = true; break;
                 case 9: break;
                 default: break;
             }
         }
 
-        private void timer2_Tick(object sender, EventArgs e)
+        private void DespawnerTimer_Tick(object sender, EventArgs e)
         {
             sampletext = spawn.Next(1, 9);
             switch (sampletext)
             {
-                case 1: teror1.Visible = teror1.Enabled = true; break;
-                case 2: teror2.Visible = teror2.Enabled = true; break;
-                case 3: teror3.Visible = teror3.Enabled = true; break;
-                case 4: teror4.Visible = teror4.Enabled = true; break;
-                case 5: teror5.Visible = teror5.Enabled = true; break;
-                case 6: dobar1.Visible = dobar1.Enabled = true; break;
-                case 7: dobar2.Visible = dobar2.Enabled = true; break;
-                case 8: dobar3.Visible = dobar3.Enabled = true; break;
-                case 9: break;
-                default: break;
-            }
-        }
-
-        private void timer3_Tick(object sender, EventArgs e)
-        {
-            sampletext = spawn.Next(1, 9);
-            switch (sampletext)
-            {
-                case 1: teror1.Visible = teror1.Enabled = true; break;
-                case 2: teror2.Visible = teror2.Enabled = true; break;
-                case 3: teror3.Visible = teror3.Enabled = true; break;
-                case 4: teror4.Visible = teror4.Enabled = true; break;
-                case 5: teror5.Visible = teror5.Enabled = true; break;
-                case 6: dobar1.Visible = dobar1.Enabled = true; break;
-                case 7: dobar2.Visible = dobar2.Enabled = true; break;
-                case 8: dobar3.Visible = dobar3.Enabled = true; break;
-                case 9: break;
-                default: break;
-            }
-        }
-
-        private void timer4_Tick(object sender, EventArgs e)
-        {
-            sampletext = spawn.Next(1, 9);
-            switch (sampletext)
-            {
-                case 1: teror1.Visible = teror1.Enabled = false; break;
-                case 2: teror2.Visible = teror2.Enabled = false; break;
-                case 3: teror3.Visible = teror3.Enabled = false; break;
-                case 4: teror4.Visible = teror4.Enabled = false; break;
-                case 5: teror5.Visible = teror5.Enabled = false; break;
-                case 6: dobar1.Visible = dobar1.Enabled = false; break;
-                case 7: dobar2.Visible = dobar2.Enabled = false; break;
-                case 8: dobar3.Visible = dobar3.Enabled = false; break;
-                case 9: break;
-                default: break;
-            }
-        }
-
-        private void timer5_Tick(object sender, EventArgs e)
-        {
-            sampletext = spawn.Next(1, 9);
-            switch (sampletext)
-            {
-                case 1: teror1.Visible = teror1.Enabled = false; break;
-                case 2: teror2.Visible = teror2.Enabled = false; break;
-                case 3: teror3.Visible = teror3.Enabled = false; break;
-                case 4: teror4.Visible = teror4.Enabled = false; break;
-                case 5: teror5.Visible = teror5.Enabled = false; break;
-                case 6: dobar1.Visible = dobar1.Enabled = false; break;
-                case 7: dobar2.Visible = dobar2.Enabled = false; break;
-                case 8: dobar3.Visible = dobar3.Enabled = false; break;
-                case 9: break;
-                default: break;
-            }
-        }
-
-        private void timer6_Tick(object sender, EventArgs e)
-        {
-            sampletext = spawn.Next(1, 9);
-            switch (sampletext)
-            {
-                case 1: teror1.Visible = teror1.Enabled = false; break;
-                case 2: teror2.Visible = teror2.Enabled = false; break;
-                case 3: teror3.Visible = teror3.Enabled = false; break;
-                case 4: teror4.Visible = teror4.Enabled = false; break;
-                case 5: teror5.Visible = teror5.Enabled = false; break;
-                case 6: dobar1.Visible = dobar1.Enabled = false; break;
-                case 7: dobar2.Visible = dobar2.Enabled = false; break;
-                case 8: dobar3.Visible = dobar3.Enabled = false; break;
+                case 1: LoshiLik4.Visible = LoshiLik4.Enabled = false; break;
+                case 2: LoshiLik5.Visible = LoshiLik5.Enabled = false; break;
+                case 3: LoshiLik3.Visible = LoshiLik3.Enabled = false; break;
+                case 4: LoshiLik2.Visible = LoshiLik2.Enabled = false; break;
+                case 5: LoshiLik1.Visible = LoshiLik1.Enabled = false; break;
+                case 6: DobarLik1.Visible = DobarLik1.Enabled = false; break;
+                case 7: DobarLik3.Visible = DobarLik3.Enabled = false; break;
+                case 8: DobarLik2.Visible = DobarLik2.Enabled = false; break;
                 case 9: break;
                 default: break;
             }
@@ -297,39 +313,23 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void timer7_Tick(object sender, EventArgs e)
         {
-            pictureBox2.Visible = false;
             pictureBox1.Visible = true;
+            pictureBox2.Visible = false;
             timer7.Enabled = false;
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            // Tutorial dugme
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            timer9.Enabled = true;
-            ukljucenost = true;
-            mode = tut = 1;
-            button1.Enabled = button1.Visible = button7.Enabled = button7.Visible = button6.Enabled = button6.Visible = false;
-            button2.Enabled = button2.Visible = true;
-            pojeni = dobri = loshi = ukupni = 0;
-            timer8.Enabled = true;
-            dobar1.Enabled = dobar1.Visible = dobar2.Enabled = dobar2.Visible = dobar3.Enabled = dobar3.Visible = false;
-            teror1.Enabled = teror1.Visible = teror2.Enabled = teror2.Visible = teror3.Enabled = teror3.Visible = teror4.Enabled = teror4.Visible = teror5.Enabled = teror5.Visible = true;
-            MessageBox.Show("Ovo su loshi likovi. Kada upucate jednog od njih, vas skor se povecava za 1.");
         }
 
         private void timer8_Tick(object sender, EventArgs e)
         {
             // Mode = 1 => Tutorijal
-            // Mode = 2 => Beskonacno
-            // Mode = 3 => 100 Metaka
-            // Mode = 4 => Do -5 pojena
-            // Mode = 5 => 10 Minuta
+            // Mode = 2 => 100 Metaka
+            // Mode = 3 => 10 Minuta
+            // Mode = 4 => Beskonacno
             if (ukljucenost == true)
             {
-                label2.Text = "SkorE: " + pojeni.ToString();
+                SkoreLabel.Text = pojeni.ToString();
+                MetciLabel.Text = ukupni.ToString();
+                LoshiLabel.Text = loshi.ToString();
+                DobriLabel.Text = dobri.ToString();
             }
             // TUTORIJAL MOD
             if (mode == 1)
@@ -339,7 +339,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
                     if (tut == 1)
                     {
                         MessageBox.Show("A ovo su dobri likovi. Kada upucate dobrog lika, vas skor se smanjuje za 1.");
-                        dobar1.Visible = dobar1.Enabled = dobar2.Visible = dobar2.Enabled = dobar3.Visible = dobar3.Enabled = true;
+                        DobarLik1.Visible = DobarLik1.Enabled = DobarLik3.Visible = DobarLik3.Enabled = DobarLik2.Visible = DobarLik2.Enabled = true;
                     }
                     tut = 2;
                 }
@@ -347,122 +347,36 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
                 {
                     if (tut == 2)
                     {
-                        button2.PerformClick();
-                        button4.PerformClick();
+                        PauseButton.PerformClick();
+                        ZavrsiButton.PerformClick();
                         MessageBox.Show("Igrica ima pet moda:\nTutoriJal mod ste upravo odigrali\nBeskonacni mod traje sve dok igrac ne zavrsi igru\n100 Metaka mod traje sve dog igrac ne potrosi 100 metaka.\n-5 PoJena mod traje sve dog igrac ne dodje do -5 PoJena.\n10 Minuta mod traje dok 10 minuta ne prodje\n...i to je to!");
-                        //timer8.Enabled = false;
                     }
                     tut = 3;
                 }
             }
 
-            // BESKONACNI MOD (nista xddddd)
-
             // 100 METAKA MOD
-            if (mode == 3)
+            if (mode == 2)
             {
                 if (ukupni == 100)
                 {
-                    button2.PerformClick();
-                    button4.PerformClick();
-                }
-            }
-
-            // -5 POJENA MOD
-
-            if (mode == 4)
-            {
-                if (pojeni == -5)
-                {
-                    button2.PerformClick();
-                    button4.PerformClick();
+                    PauseButton.PerformClick();
+                    ZavrsiButton.PerformClick();
                 }
             }
 
             // 10 MINUTA MOD
 
-            if (mode == 5)
+            if (mode == 3)
             {
                 if (minuti == 10)
                 {
-                    button2.PerformClick();
-                    button4.PerformClick();
+                    PauseButton.PerformClick();
+                    ZavrsiButton.PerformClick();
                 }
             }
-        }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-            // Beskonacni mode
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            ukljucenost = true;
-            mode = 1;
-            timer9.Enabled = timer8.Enabled = true;
-            button8.Enabled = button8.Visible = button9.Enabled = button9.Visible = button10.Enabled = button10.Visible = button11.Enabled = button11.Visible = button12.Enabled = button12.Visible = false;
-            timer1.Enabled = timer2.Enabled = timer3.Enabled = timer4.Enabled = timer5.Enabled = timer6.Enabled = true;
-            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
-            button2.Enabled = button2.Visible = true;
-            teror1.Enabled = teror1.Visible = teror2.Enabled = teror2.Visible = teror3.Visible = teror3.Enabled = teror4.Visible = teror4.Enabled = teror5.Visible = teror5.Enabled = dobar1.Visible = dobar1.Enabled = dobar2.Visible = dobar2.Enabled = dobar3.Visible = dobar3.Enabled = false;
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            // 100 Metaka mode
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            ukljucenost = true;
-            mode = 3;
-            timer8.Enabled = timer9.Enabled = true;
-            button8.Enabled = button8.Visible = button9.Enabled = button9.Visible = button10.Enabled = button10.Visible = button11.Enabled = button11.Visible = button12.Enabled = button12.Visible = false;
-            timer1.Enabled = timer2.Enabled = timer3.Enabled = timer4.Enabled = timer5.Enabled = timer6.Enabled = true;
-            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
-            button2.Enabled = button2.Visible = true;
-            teror1.Enabled = teror1.Visible = teror2.Enabled = teror2.Visible = teror3.Visible = teror3.Enabled = teror4.Visible = teror4.Enabled = teror5.Visible = teror5.Enabled = dobar1.Visible = dobar1.Enabled = dobar2.Visible = dobar2.Enabled = dobar3.Visible = dobar3.Enabled = false;
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            // -5 PoJena mod
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            ukljucenost = true;
-            mode = 4;
-            timer8.Enabled = timer9.Enabled = true;
-            button8.Enabled = button8.Visible = button9.Enabled = button9.Visible = button10.Enabled = button10.Visible = button11.Enabled = button11.Visible = button12.Enabled = button12.Visible = false;
-            timer1.Enabled = timer2.Enabled = timer3.Enabled = timer4.Enabled = timer5.Enabled = timer6.Enabled = true;
-            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
-            button2.Enabled = button2.Visible = true;
-            teror1.Enabled = teror1.Visible = teror2.Enabled = teror2.Visible = teror3.Visible = teror3.Enabled = teror4.Visible = teror4.Enabled = teror5.Visible = teror5.Enabled = dobar1.Visible = dobar1.Enabled = dobar2.Visible = dobar2.Enabled = dobar3.Visible = dobar3.Enabled = false;
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            // 10 Minuta mode
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            ukljucenost = true;
-            mode = 5;
-            timer8.Enabled = timer9.Enabled = true;
-            button8.Enabled = button8.Visible = button9.Enabled = button9.Visible = button10.Enabled = button10.Visible = button11.Enabled = button11.Visible = button12.Enabled = button12.Visible = false;
-            timer1.Enabled = timer2.Enabled = timer3.Enabled = timer4.Enabled = timer5.Enabled = timer6.Enabled = true;
-            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
-            button2.Enabled = button2.Visible = true;
-            teror1.Enabled = teror1.Visible = teror2.Enabled = teror2.Visible = teror3.Visible = teror3.Enabled = teror4.Visible = teror4.Enabled = teror5.Visible = teror5.Enabled = dobar1.Visible = dobar1.Enabled = dobar2.Visible = dobar2.Enabled = dobar3.Visible = dobar3.Enabled = false;
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            // Back dugme (modeovi xdddd)
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = true;
-            timer7.Enabled = true;
-            button8.Enabled = button8.Visible = button9.Enabled = button9.Visible = button10.Enabled = button10.Visible = button11.Enabled = button11.Visible = button12.Enabled = button12.Visible = false;
-            button1.Enabled = button1.Visible = button7.Enabled = button7.Visible = button6.Enabled = button6.Visible = true;
+            // BESKONACNO MOD (NISTA XDD)
         }
 
         private void timer9_Tick(object sender, EventArgs e)
@@ -475,16 +389,26 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             }
             if (sekunde < 10)
             {
-                label1.Text = "Vreme: " + minuti.ToString() + ":0" + sekunde.ToString();
+                VremeLabel.Text = minuti.ToString() + ":0" + sekunde.ToString();
             }
             else
             {
-                label1.Text = "Vreme: " + minuti.ToString() + ":" + sekunde.ToString();
+                VremeLabel.Text = minuti.ToString() + ":" + sekunde.ToString();
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        { 
+        {
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
