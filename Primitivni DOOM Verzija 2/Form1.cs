@@ -202,7 +202,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             StartButton.Enabled = StartButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = true;
             ResumeButton.Visible = ResumeButton.Enabled = ZavrsiButton.Visible = ZavrsiButton.Enabled = false;
             spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = timer9.Enabled = false;
-            MessageBox.Show("G A M E  O V E R");
+            MessageBox.Show("G A M E  O V E R  B L Y A T");
         }
 
         private void HistoryButton_Click(object sender, EventArgs e)
@@ -210,7 +210,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
-            MessageBox.Show("VERZIJA 0:\n-Inicijalna BETA verzija\n-----------------\nVERZIJA 1:\n-Inicijalna dovrsena verzija\n-----------------\nVERZIJA 2:\n-Projekat je nov i zove se drugacije\n-VersiJon Histori dugme\n-Odvojeno brojanje ukupnog broja pogodaka, broja pogodaka dobrih i broja pogodaka loshih\n-Promenjene pozicije likova\n-Dodat TutoriJal\n-Novi ModeOvi\n-Posle kraja igre svi likovi postaju vidljivi\n-Dodati LabelOvi koji sve vreme pokazuju koliko dugo je igrac igrao i broj PoJena\n-U titleU pishe Primitivni DOOM\n-----------------\nVERZIJA 3:\n-Razne promene u kodu programa radi citljivosti\n-Uklonjen -5 PoJena mode\n-Uklonjeno dugme za pregled SkorEa\n-Dodat status bar kao zamena za SkorE dugme\n-Novi raspored dugmica\n-Projekat pravljen u Visual Studio Express 2010\n-Sve slike su sada uzete iz FreeDoom-a\n-KONACNO, dodata transparentnost :D\n-Novi raspored protivnika zbog nove pozadine.\n-Dodato ovo upozorenje za TutoriJal mod koji ima bag sa MessageBox-om koji se otvara gomilu puta umesto jedanput :P\n-Igrica ima pravu ikonicu\n-Game over poruka vise ne pokazuje zavrsni SkorE");
+            MessageBox.Show("VERZIJA 0:\n-Inicijalna BETA verzija\n-----------------\nVERZIJA 1:\n-Inicijalna dovrsena verzija\n-----------------\nVERZIJA 2:\n-Projekat je nov i zove se drugacije\n-VersiJon Histori dugme\n-Odvojeno brojanje ukupnog broja pogodaka, broja pogodaka dobrih i broja pogodaka loshih\n-Promenjene pozicije likova\n-Dodat TutoriJal\n-Novi ModeOvi\n-Posle kraja igre svi likovi postaju vidljivi\n-Dodati LabelOvi koji sve vreme pokazuju koliko dugo je igrac igrao i broj PoJena\n-U titleU pishe Primitivni DOOM\n-----------------\nREDUX VERZIJA:\n-Razne promene u kodu programa radi citljivosti\n-Uklonjen -5 PoJena mode\n-Uklonjeno dugme za pregled SkorEa\n-Dodat status bar kao zamena za SkorE dugme\n-Novi raspored dugmica\n-Projekat pravljen u Visual Studio Express 2010\n-Sve slike su sada uzete iz FreeDoom-a\n-KONACNO, dodata transparentnost :D\n-Novi raspored protivnika zbog nove pozadine.\n-Dodato ovo upozorenje za TutoriJal mod koji ima bag sa MessageBox-om koji se otvara gomilu puta umesto jedanput :P\n-Igrica ima pravu ikonicu\n-Game over poruka vise ne pokazuje zavrsni SkorE");
         }
 
         private void BeskonacnoButton_Click(object sender, EventArgs e)

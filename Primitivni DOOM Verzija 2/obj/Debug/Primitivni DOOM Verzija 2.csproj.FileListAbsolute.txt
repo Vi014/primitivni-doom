@@ -30,3 +30,5 @@ G:\Documents\SystemPro\4. godina\0 C#\Sa casova\5 Primitivni DOOM\Primitivni DOO
 G:\Documents\SystemPro\4. godina\0 C#\Sa casova\5 Primitivni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Form1.resources
 G:\Documents\SystemPro\4. godina\0 C#\Sa casova\5 Primitivni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Properties.Resources.resources
 G:\Documents\SystemPro\4. godina\0 C#\Sa casova\5 Primitivni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.GenerateResource.Cache
+J:\Documents\SystemPro\4. godina\0 C#\Sa casova\5 Primitivni DOOM - Copy\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
+J:\Documents\SystemPro\4. godina\0 C#\Sa casova\5 Primitivni DOOM - Copy\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb

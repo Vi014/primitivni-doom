@@ -396,12 +396,12 @@
             // TutorijalButton
             // 
             this.TutorijalButton.Enabled = false;
-            this.TutorijalButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TutorijalButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TutorijalButton.Location = new System.Drawing.Point(378, 162);
             this.TutorijalButton.Name = "TutorijalButton";
             this.TutorijalButton.Size = new System.Drawing.Size(120, 67);
             this.TutorijalButton.TabIndex = 42;
-            this.TutorijalButton.Text = "Tutorial (NE RADI)";
+            this.TutorijalButton.Text = "TutoriJal";
             this.TutorijalButton.UseVisualStyleBackColor = true;
             this.TutorijalButton.Visible = false;
             this.TutorijalButton.Click += new System.EventHandler(this.TutorijalButton_Click);
