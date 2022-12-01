@@ -8,3 +8,7 @@ C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni 
 C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
 F:\Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
 F:\Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
+F:\si sharp\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
+F:\si sharp\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
+J:\2. godina\C#\sa casa\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
+J:\2. godina\C#\sa casa\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
