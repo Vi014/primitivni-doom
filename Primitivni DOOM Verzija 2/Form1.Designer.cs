@@ -454,7 +454,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(858, 661);
+            this.ClientSize = new System.Drawing.Size(857, 653);
             this.Controls.Add(this.VremeLabel);
             this.Controls.Add(this.DobriLabel);
             this.Controls.Add(this.MetciLabel);
@@ -482,13 +482,13 @@
             this.Controls.Add(this.LoshiLik4);
             this.Controls.Add(this.mlgPozadina420);
             this.Controls.Add(this.StatusBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(999, 999);
-            this.MinimumSize = new System.Drawing.Size(874, 570);
+            this.MinimumSize = new System.Drawing.Size(0, 570);
             this.Name = "Form1";
             this.Text = "Primitivni DOOM";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DobarLik2)).EndInit();

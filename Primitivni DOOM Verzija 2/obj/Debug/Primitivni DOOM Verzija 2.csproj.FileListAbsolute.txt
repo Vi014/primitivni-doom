@@ -1,31 +1,13 @@
-C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM Verzija 2.exe
-C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM Verzija 2.pdb
-C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Form1.resources
-C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Properties.Resources.resources
-C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.GenerateResource.Cache
-C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
-C:\Users\kurs\Desktop\New folder\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
-F:\Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
-F:\Zavrsni DOOM\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
-F:\si sharp\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
-F:\si sharp\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
-J:\2. godina\C#\sa casa\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
-J:\2. godina\C#\sa casa\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
-C:\Users\Nikola PekovicAR\Desktop\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
-C:\Users\Nikola PekovicAR\Desktop\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
-C:\Users\Nikola PekovicAR\Desktop\22 doom il shta god\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM Verzija 2.exe
-C:\Users\Nikola PekovicAR\Desktop\22 doom il shta god\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM Verzija 2.pdb
-C:\Users\Nikola PekovicAR\Desktop\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Form1.resources
-C:\Users\Nikola PekovicAR\Desktop\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Properties.Resources.resources
-C:\Users\Nikola PekovicAR\Desktop\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.GenerateResource.Cache
-C:\Users\Nikola PekovicAR\Desktop\22 doom il shta god\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csprojResolveAssemblyReference.cache
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM Verzija 2.exe
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM Verzija 2.pdb
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.AssemblyReference.cache
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Form1.resources
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Properties.Resources.resources
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.GenerateResource.cache
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.CoreCompileInputs.cache
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.exe
-D:\Viola\Documents\!data\moji programi misc\[C#] [EN] Primitivni Doom - Regular Edition Redux\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.pdb
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM.exe.manifest
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM.application
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM.exe
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\bin\Debug\Primitivni DOOM.pdb
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Form1.resources
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni_Doom.Properties.Resources.resources
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.GenerateResource.cache
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM.TrustInfo.xml
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM.exe.manifest
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM.application
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM.exe
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM.pdb

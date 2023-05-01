@@ -1,8 +1,0 @@
-C:\Users\Nikola PekovicAR\AppData\Local\Temporary Projects\Primitivni Doom - Treci put pravim novi projekat -_-\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Nikola PekovicAR\AppData\Local\Temporary Projects\Primitivni Doom - Treci put pravim novi projekat -_-\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Form1.resources
-C:\Users\Nikola PekovicAR\AppData\Local\Temporary Projects\Primitivni Doom - Treci put pravim novi projekat -_-\obj\Debug\Primitivni_Doom___Treci_put_pravim_novi_projekat____.Properties.Resources.resources
-C:\Users\Nikola PekovicAR\AppData\Local\Temporary Projects\Primitivni Doom - Treci put pravim novi projekat -_-\obj\Debug\Primitivni Doom - Treci put pravim novi projekat -_-.csproj.GenerateResource.Cache
-C:\Users\Nikola PekovicAR\AppData\Local\Temporary Projects\Primitivni Doom - Treci put pravim novi projekat -_-\bin\Debug\Primitivni Doom - Treci put pravim novi projekat -_-.exe
-C:\Users\Nikola PekovicAR\AppData\Local\Temporary Projects\Primitivni Doom - Treci put pravim novi projekat -_-\bin\Debug\Primitivni Doom - Treci put pravim novi projekat -_-.pdb
-C:\Users\Nikola PekovicAR\AppData\Local\Temporary Projects\Primitivni Doom - Treci put pravim novi projekat -_-\obj\Debug\Primitivni Doom - Treci put pravim novi projekat -_-.exe
-C:\Users\Nikola PekovicAR\AppData\Local\Temporary Projects\Primitivni Doom - Treci put pravim novi projekat -_-\obj\Debug\Primitivni Doom - Treci put pravim novi projekat -_-.pdb

@@ -19,46 +19,46 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
         {
             InitializeComponent();
             this.AllowTransparency = true;
-            //
-            //
+            
+
             mlgPozadina420.Controls.Add(DobarLik1);
             DobarLik1.BackColor = Color.Transparent;
-            //
+            
             mlgPozadina420.Controls.Add(DobarLik2);
             DobarLik2.BackColor = Color.Transparent;
-            //
+            
             mlgPozadina420.Controls.Add(DobarLik3);
             DobarLik3.BackColor = Color.Transparent;
-            //
-            //
+            
+            
             mlgPozadina420.Controls.Add(LoshiLik1);
             LoshiLik1.BackColor = Color.Transparent;
-            //
+            
             mlgPozadina420.Controls.Add(LoshiLik2);
             LoshiLik2.BackColor = Color.Transparent;
-            //
+            
             mlgPozadina420.Controls.Add(LoshiLik3);
             LoshiLik3.BackColor = Color.Transparent;
-            //
+            
             mlgPozadina420.Controls.Add(LoshiLik4);
             LoshiLik4.BackColor = Color.Transparent;
-            //
+            
             mlgPozadina420.Controls.Add(LoshiLik5);
             LoshiLik5.BackColor = Color.Transparent;
-            //
-            //
+            
+            
             mlgPozadina420.Controls.Add(pictureBox1);
             pictureBox1.BackColor = Color.Transparent;
-            //
+            
             mlgPozadina420.Controls.Add(pictureBox2);
             pictureBox2.BackColor = Color.Transparent;
         }
 
         private void LoshiLik1_Click(object sender, EventArgs e)
         {
-            pojeni = pojeni + 1;
-            loshi = loshi + 1;
-            ukupni = ukupni + 1;
+            pojeni++;
+            loshi++;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
@@ -67,9 +67,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void LoshiLik2_Click(object sender, EventArgs e)
         {
-            pojeni = pojeni + 1;
-            loshi = loshi + 1;
-            ukupni = ukupni + 1;
+            pojeni++;
+            loshi++;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
@@ -78,9 +78,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void LoshiLik3_Click(object sender, EventArgs e)
         {
-            pojeni = pojeni + 1;
-            loshi = loshi + 1;
-            ukupni = ukupni + 1;
+            pojeni++;
+            loshi++;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
@@ -89,9 +89,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void LoshiLik4_Click(object sender, EventArgs e)
         {
-            pojeni = pojeni + 1;
-            loshi = loshi + 1;
-            ukupni = ukupni + 1;
+            pojeni++;
+            loshi++;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
@@ -100,9 +100,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void LoshiLik5_Click(object sender, EventArgs e)
         {
-            pojeni = pojeni + 1;
-            loshi = loshi + 1;
-            ukupni = ukupni + 1;
+            pojeni++;
+            loshi++;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
@@ -111,9 +111,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void DobarLik1_Click(object sender, EventArgs e)
         {
-            pojeni = pojeni - 1;
-            dobri = dobri + 1;
-            ukupni = ukupni + 1;
+            pojeni--;
+            dobri++;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
@@ -122,9 +122,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void DobarLik2_Click(object sender, EventArgs e)
         {
-            pojeni = pojeni - 1;
-            dobri = dobri + 1;
-            ukupni = ukupni + 1;
+            pojeni--;
+            dobri++;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
@@ -133,9 +133,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void DobarLik3_Click(object sender, EventArgs e)
         {
-            pojeni = pojeni - 1;
-            dobri = dobri + 1;
-            ukupni = ukupni + 1;
+            pojeni--;
+            dobri++;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
@@ -144,7 +144,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void mlgPozadina420_Click(object sender, EventArgs e)
         {
-            ukupni = ukupni + 1;
+            ukupni++;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true; 
@@ -210,7 +210,36 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
-            MessageBox.Show("VERZIJA 0:\n-Inicijalna BETA verzija\n-----------------\nVERZIJA 1:\n-Inicijalna dovrsena verzija\n-----------------\nVERZIJA 2:\n-Projekat je nov i zove se drugacije\n-VersiJon Histori dugme\n-Odvojeno brojanje ukupnog broja pogodaka, broja pogodaka dobrih i broja pogodaka loshih\n-Promenjene pozicije likova\n-Dodat TutoriJal\n-Novi ModeOvi\n-Posle kraja igre svi likovi postaju vidljivi\n-Dodati LabelOvi koji sve vreme pokazuju koliko dugo je igrac igrao i broj PoJena\n-U titleU pishe Primitivni DOOM\n-----------------\nREDUX VERZIJA:\n-Razne promene u kodu programa radi citljivosti\n-Uklonjen -5 PoJena mode\n-Uklonjeno dugme za pregled SkorEa\n-Dodat status bar kao zamena za SkorE dugme\n-Novi raspored dugmica\n-Projekat pravljen u Visual Studio Express 2010\n-Sve slike su sada uzete iz FreeDoom-a\n-KONACNO, dodata transparentnost :D\n-Novi raspored protivnika zbog nove pozadine.\n-Dodato ovo upozorenje za TutoriJal mod koji ima bag sa MessageBox-om koji se otvara gomilu puta umesto jedanput :P\n-Igrica ima pravu ikonicu\n-Game over poruka vise ne pokazuje zavrsni SkorE");
+            MessageBox.Show("VERZIJA 0:\n" +
+                "-Inicijalna BETA verzija\n" +
+                "-----------------\n" +
+                "VERZIJA 1:\n" +
+                "-Inicijalna dovrsena verzija\n" +
+                "-----------------\n" +
+                "VERZIJA 2:\n" +
+                "-Projekat je nov i zove se drugacije\n" +
+                "-VersiJon Histori dugme\n" +
+                "-Odvojeno brojanje ukupnog broja pogodaka, broja pogodaka dobrih i broja pogodaka loshih\n" +
+                "-Promenjene pozicije likova\n" +
+                "-Dodat TutoriJal\n" +
+                "-Novi ModeOvi\n" +
+                "-Posle kraja igre svi likovi postaju vidljivi\n" +
+                "-Dodati LabelOvi koji sve vreme pokazuju koliko dugo je igrac igrao i broj PoJena\n" +
+                "-U titleU pishe Primitivni DOOM\n" +
+                "-----------------\n" +
+                "REDUX VERZIJA:\n" +
+                "-Razne promene u kodu programa radi citljivosti\n" +
+                "-Uklonjen -5 PoJena mode\n" +
+                "-Uklonjeno dugme za pregled SkorEa\n" +
+                "-Dodat status bar kao zamena za SkorE dugme\n" +
+                "-Novi raspored dugmica\n" +
+                "-Projekat pravljen u Visual Studio Express 2010\n" +
+                "-Sve slike su sada uzete iz FreeDoom-a\n" +
+                "-KONACNO, dodata transparentnost :D\n" +
+                "-Novi raspored protivnika zbog nove pozadine.\n" +
+                "-Dodato ovo upozorenje za TutoriJal mod koji ima bag sa MessageBox-om koji se otvara gomilu puta umesto jedanput :P\n" +
+                "-Igrica ima pravu ikonicu\n" +
+                "-Game over poruka vise ne pokazuje zavrsni SkorE");
         }
 
         private void BeskonacnoButton_Click(object sender, EventArgs e)
@@ -331,6 +360,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
                 LoshiLabel.Text = loshi.ToString();
                 DobriLabel.Text = dobri.ToString();
             }
+
+
+
             // TUTORIJAL MOD
             if (mode == 1)
             {
@@ -366,7 +398,6 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             }
 
             // 10 MINUTA MOD
-
             if (mode == 3)
             {
                 if (minuti == 10)
@@ -381,11 +412,11 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void timer9_Tick(object sender, EventArgs e)
         {
-            sekunde = sekunde + 1;
+            sekunde++;
             if (sekunde == 60)
             {
                 sekunde = 0;
-                minuti = minuti + 1;
+                minuti++;
             }
             if (sekunde < 10)
             {
@@ -395,20 +426,6 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             {
                 VremeLabel.Text = minuti.ToString() + ":" + sekunde.ToString();
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
