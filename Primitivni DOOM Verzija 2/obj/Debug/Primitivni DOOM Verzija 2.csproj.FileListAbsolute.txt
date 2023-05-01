@@ -11,3 +11,4 @@ C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj
 C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM.application
 C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM.exe
 C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM.pdb
+C:\Users\Nikola\Desktop\temp\doom2\primitivni-doom\Primitivni DOOM Verzija 2\obj\Debug\Primitivni DOOM Verzija 2.csproj.AssemblyReference.cache

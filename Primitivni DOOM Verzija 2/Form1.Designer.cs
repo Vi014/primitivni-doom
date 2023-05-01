@@ -66,6 +66,8 @@
             this.LoshiLabel = new System.Windows.Forms.Label();
             this.MetciLabel = new System.Windows.Forms.Label();
             this.DobriLabel = new System.Windows.Forms.Label();
+            this.PojeniButton = new System.Windows.Forms.Button();
+            this.PerfekcionizamButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DobarLik2)).BeginInit();
@@ -117,7 +119,7 @@
             // 
             this.PauseButton.Enabled = false;
             this.PauseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PauseButton.Location = new System.Drawing.Point(378, 20);
+            this.PauseButton.Location = new System.Drawing.Point(378, 21);
             this.PauseButton.Name = "PauseButton";
             this.PauseButton.Size = new System.Drawing.Size(120, 67);
             this.PauseButton.TabIndex = 42;
@@ -129,7 +131,7 @@
             // StartButton
             // 
             this.StartButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartButton.Location = new System.Drawing.Point(378, 20);
+            this.StartButton.Location = new System.Drawing.Point(378, 21);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(120, 67);
             this.StartButton.TabIndex = 41;
@@ -319,7 +321,7 @@
             // 
             this.BeskonacnoButton.Enabled = false;
             this.BeskonacnoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BeskonacnoButton.Location = new System.Drawing.Point(378, 92);
+            this.BeskonacnoButton.Location = new System.Drawing.Point(378, 94);
             this.BeskonacnoButton.Name = "BeskonacnoButton";
             this.BeskonacnoButton.Size = new System.Drawing.Size(120, 67);
             this.BeskonacnoButton.TabIndex = 43;
@@ -345,19 +347,20 @@
             // 
             this.MinutiButton.Enabled = false;
             this.MinutiButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MinutiButton.Location = new System.Drawing.Point(504, 92);
+            this.MinutiButton.Location = new System.Drawing.Point(252, 167);
             this.MinutiButton.Name = "MinutiButton";
             this.MinutiButton.Size = new System.Drawing.Size(120, 67);
             this.MinutiButton.TabIndex = 43;
             this.MinutiButton.Text = "10 Minuta";
             this.MinutiButton.UseVisualStyleBackColor = true;
             this.MinutiButton.Visible = false;
+            this.MinutiButton.Click += new System.EventHandler(this.MinutiButton_Click);
             // 
             // NazadButton
             // 
             this.NazadButton.Enabled = false;
             this.NazadButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NazadButton.Location = new System.Drawing.Point(378, 20);
+            this.NazadButton.Location = new System.Drawing.Point(378, 21);
             this.NazadButton.Name = "NazadButton";
             this.NazadButton.Size = new System.Drawing.Size(120, 67);
             this.NazadButton.TabIndex = 42;
@@ -397,7 +400,7 @@
             // 
             this.TutorijalButton.Enabled = false;
             this.TutorijalButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TutorijalButton.Location = new System.Drawing.Point(378, 162);
+            this.TutorijalButton.Location = new System.Drawing.Point(378, 167);
             this.TutorijalButton.Name = "TutorijalButton";
             this.TutorijalButton.Size = new System.Drawing.Size(120, 67);
             this.TutorijalButton.TabIndex = 42;
@@ -450,11 +453,39 @@
             this.DobriLabel.Text = "0";
             this.DobriLabel.Click += new System.EventHandler(this.mlgPozadina420_Click);
             // 
+            // PojeniButton
+            // 
+            this.PojeniButton.Enabled = false;
+            this.PojeniButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PojeniButton.Location = new System.Drawing.Point(504, 94);
+            this.PojeniButton.Name = "PojeniButton";
+            this.PojeniButton.Size = new System.Drawing.Size(120, 67);
+            this.PojeniButton.TabIndex = 47;
+            this.PojeniButton.Text = "-5 PoJena";
+            this.PojeniButton.UseVisualStyleBackColor = true;
+            this.PojeniButton.Visible = false;
+            this.PojeniButton.Click += new System.EventHandler(this.PojeniButton_Click);
+            // 
+            // PerfekcionizamButton
+            // 
+            this.PerfekcionizamButton.Enabled = false;
+            this.PerfekcionizamButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PerfekcionizamButton.Location = new System.Drawing.Point(504, 167);
+            this.PerfekcionizamButton.Name = "PerfekcionizamButton";
+            this.PerfekcionizamButton.Size = new System.Drawing.Size(120, 67);
+            this.PerfekcionizamButton.TabIndex = 48;
+            this.PerfekcionizamButton.Text = "Perfekcionizam";
+            this.PerfekcionizamButton.UseVisualStyleBackColor = true;
+            this.PerfekcionizamButton.Visible = false;
+            this.PerfekcionizamButton.Click += new System.EventHandler(this.PerfekcionizamButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(857, 653);
+            this.ClientSize = new System.Drawing.Size(857, 650);
+            this.Controls.Add(this.PerfekcionizamButton);
+            this.Controls.Add(this.PojeniButton);
             this.Controls.Add(this.VremeLabel);
             this.Controls.Add(this.DobriLabel);
             this.Controls.Add(this.MetciLabel);
@@ -486,7 +517,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(999, 999);
-            this.MinimumSize = new System.Drawing.Size(0, 570);
+            this.MinimumSize = new System.Drawing.Size(20, 570);
             this.Name = "Form1";
             this.Text = "Primitivni DOOM";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -544,7 +575,8 @@
         private System.Windows.Forms.Label LoshiLabel;
         private System.Windows.Forms.Label MetciLabel;
         private System.Windows.Forms.Label DobriLabel;
-
+        private System.Windows.Forms.Button PojeniButton;
+        private System.Windows.Forms.Button PerfekcionizamButton;
     }
 }
 

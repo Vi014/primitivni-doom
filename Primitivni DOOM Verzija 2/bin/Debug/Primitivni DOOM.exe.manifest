@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Primitivni DOOM.exe" size="980392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Primitivni DOOM.exe" size="983976">
       <assemblyIdentity name="Primitivni DOOM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>jm9VO1hUI7pPRwq3jo9zeISW88Q=</dsig:DigestValue>
+        <dsig:DigestValue>u0x4FfbNOr9IPfikgvL/4kxKots=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

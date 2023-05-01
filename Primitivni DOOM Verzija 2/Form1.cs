@@ -118,6 +118,12 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             pictureBox1.Visible = false;
             timer7.Enabled = true;
             DobarLik1.Enabled = DobarLik1.Visible = false;
+
+            if (mode == 5)
+            {
+                PauseButton.PerformClick();
+                ZavrsiButton.PerformClick();
+            }
         }
 
         private void DobarLik2_Click(object sender, EventArgs e)
@@ -129,6 +135,12 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             pictureBox1.Visible = false;
             timer7.Enabled = true;
             DobarLik2.Enabled = DobarLik2.Visible = false;
+
+            if (mode == 5)
+            {
+                PauseButton.PerformClick();
+                ZavrsiButton.PerformClick();
+            }
         }
 
         private void DobarLik3_Click(object sender, EventArgs e)
@@ -140,6 +152,12 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             pictureBox1.Visible = false;
             timer7.Enabled = true;
             DobarLik3.Enabled = DobarLik3.Visible = false;
+
+            if (mode == 5)
+            {
+                PauseButton.PerformClick();
+                ZavrsiButton.PerformClick();
+            }
         }
 
         private void mlgPozadina420_Click(object sender, EventArgs e)
@@ -155,7 +173,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
-            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = true;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = PojeniButton.Enabled = PojeniButton.Visible = PerfekcionizamButton.Visible = PerfekcionizamButton.Enabled = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = true;
             StartButton.Enabled = StartButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = false;
         }
 
@@ -164,7 +182,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
-            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = PojeniButton.Enabled = PojeniButton.Visible = PerfekcionizamButton.Visible = PerfekcionizamButton.Enabled = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
             StartButton.Enabled = StartButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = true;
         }
 
@@ -202,7 +220,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             StartButton.Enabled = StartButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = true;
             ResumeButton.Visible = ResumeButton.Enabled = ZavrsiButton.Visible = ZavrsiButton.Enabled = false;
             spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = timer9.Enabled = false;
-            MessageBox.Show("G A M E  O V E R  B L Y A T");
+            if(mode != 1) MessageBox.Show("G A M E  O V E R  B L Y A T");
         }
 
         private void HistoryButton_Click(object sender, EventArgs e)
@@ -239,7 +257,13 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
                 "-Novi raspored protivnika zbog nove pozadine.\n" +
                 "-Dodato ovo upozorenje za TutoriJal mod koji ima bag sa MessageBox-om koji se otvara gomilu puta umesto jedanput :P\n" +
                 "-Igrica ima pravu ikonicu\n" +
-                "-Game over poruka vise ne pokazuje zavrsni SkorE");
+                "-Game over poruka vise ne pokazuje zavrsni SkorE\n" +
+                "-----------------\n" +
+                "VERZIJA 3:\n" +
+                "-Dodatno ciscenje koda\n" +
+                "-Popravljen bag gde se poruke u tutorijalo beskonacno ponavljaju\n" +
+                "-Vracen -5 PoJena mode\n" +
+                "-Dodat Perfekcionizam mode");
         }
 
         private void BeskonacnoButton_Click(object sender, EventArgs e)
@@ -250,7 +274,7 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             ukljucenost = true;
             mode = 4;
             timer9.Enabled = timer8.Enabled = true;
-            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = PojeniButton.Enabled = PojeniButton.Visible = PerfekcionizamButton.Enabled = PerfekcionizamButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
             spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = true;
             pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
             PauseButton.Enabled = PauseButton.Visible = true;
@@ -259,13 +283,14 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
 
         private void TutorijalButton_Click(object sender, EventArgs e)
         {
+            tut1 = tut2 = true;
             pictureBox2.Visible = true;
             pictureBox1.Visible = false;
             timer7.Enabled = true;
             timer9.Enabled = true;
             ukljucenost = true;
             mode = tut = 1;
-            StartButton.Enabled = StartButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = HistoryButton.Enabled = HistoryButton.Visible = false;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = PojeniButton.Enabled = PojeniButton.Visible = PerfekcionizamButton.Enabled = PerfekcionizamButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
             PauseButton.Enabled = PauseButton.Visible = true;
             pojeni = dobri = loshi = ukupni = 0;
             timer8.Enabled = true;
@@ -282,7 +307,22 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             ukljucenost = true;
             mode = 2;
             timer8.Enabled = timer9.Enabled = true;
-            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = PojeniButton.Enabled = PojeniButton.Visible = PerfekcionizamButton.Enabled = PerfekcionizamButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = true;
+            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
+            PauseButton.Enabled = PauseButton.Visible = true;
+            LoshiLik4.Enabled = LoshiLik4.Visible = LoshiLik5.Enabled = LoshiLik5.Visible = LoshiLik3.Visible = LoshiLik3.Enabled = LoshiLik2.Visible = LoshiLik2.Enabled = LoshiLik1.Visible = LoshiLik1.Enabled = DobarLik1.Visible = DobarLik1.Enabled = DobarLik3.Visible = DobarLik3.Enabled = DobarLik2.Visible = DobarLik2.Enabled = false;
+        }
+
+        private void PerfekcionizamButton_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            ukljucenost = true;
+            mode = 5;
+            timer8.Enabled = timer9.Enabled = true;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = PojeniButton.Enabled = PojeniButton.Visible = PerfekcionizamButton.Enabled = PerfekcionizamButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
             spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = true;
             pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
             PauseButton.Enabled = PauseButton.Visible = true;
@@ -297,7 +337,22 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             ukljucenost = true;
             mode = 3;
             timer8.Enabled = timer9.Enabled = true;
-            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            BeskonacnoButton.Enabled = BeskonacnoButton.Visible = PojeniButton.Enabled = PojeniButton.Visible = PerfekcionizamButton.Enabled = PerfekcionizamButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
+            spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = true;
+            pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
+            PauseButton.Enabled = PauseButton.Visible = true;
+            LoshiLik4.Enabled = LoshiLik4.Visible = LoshiLik5.Enabled = LoshiLik5.Visible = LoshiLik3.Visible = LoshiLik3.Enabled = LoshiLik2.Visible = LoshiLik2.Enabled = LoshiLik1.Visible = LoshiLik1.Enabled = DobarLik1.Visible = DobarLik1.Enabled = DobarLik3.Visible = DobarLik3.Enabled = DobarLik2.Visible = DobarLik2.Enabled = false;
+        }
+
+        private void PojeniButton_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = false;
+            timer7.Enabled = true;
+            ukljucenost = true;
+            mode = 4;
+            timer8.Enabled = timer9.Enabled = true;
+            BeskonacnoButton.Enabled  = BeskonacnoButton.Visible = PojeniButton.Enabled = PojeniButton.Visible = PerfekcionizamButton.Enabled = PerfekcionizamButton.Visible = MetciButton.Enabled = MetciButton.Visible = TutorijalButton.Enabled = TutorijalButton.Visible = MinutiButton.Enabled = MinutiButton.Visible = NazadButton.Enabled = NazadButton.Visible = false;
             spawner1.Enabled = spawner2.Enabled = spawner3.Enabled = despawner1.Enabled = despawner2.Enabled = despawner3.Enabled = true;
             pojeni = dobri = loshi = ukupni = sekunde = minuti = 0;
             PauseButton.Enabled = PauseButton.Visible = true;
@@ -347,12 +402,15 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             timer7.Enabled = false;
         }
 
+        bool tut1, tut2;
+
         private void timer8_Tick(object sender, EventArgs e)
         {
             // Mode = 1 => Tutorijal
             // Mode = 2 => 100 Metaka
             // Mode = 3 => 10 Minuta
             // Mode = 4 => Beskonacno
+            // Mode = 5 => Perfekcionizam
             if (ukljucenost == true)
             {
                 SkoreLabel.Text = pojeni.ToString();
@@ -368,8 +426,9 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
             {
                 if (loshi == 5)
                 {
-                    if (tut == 1)
+                    if (tut == 1 && tut1)
                     {
+                        tut1 = false;
                         MessageBox.Show("A ovo su dobri likovi. Kada upucate dobrog lika, vas skor se smanjuje za 1.");
                         DobarLik1.Visible = DobarLik1.Enabled = DobarLik3.Visible = DobarLik3.Enabled = DobarLik2.Visible = DobarLik2.Enabled = true;
                     }
@@ -377,11 +436,19 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
                 }
                 if (dobri == 3)
                 {
-                    if (tut == 2)
+                    if (tut == 2 && tut2)
                     {
+                        tut2 = false;
                         PauseButton.PerformClick();
                         ZavrsiButton.PerformClick();
-                        MessageBox.Show("Igrica ima pet moda:\nTutoriJal mod ste upravo odigrali\nBeskonacni mod traje sve dok igrac ne zavrsi igru\n100 Metaka mod traje sve dog igrac ne potrosi 100 metaka.\n-5 PoJena mod traje sve dog igrac ne dodje do -5 PoJena.\n10 Minuta mod traje dok 10 minuta ne prodje\n...i to je to!");
+                        MessageBox.Show("Igrica ima pet moda:\n" +
+                            "TutoriJal mod ste upravo odigrali\n" +
+                            "Beskonacni mod traje sve dok igrac ne zavrsi igru\n" +
+                            "100 Metaka mod traje sve dog igrac ne potrosi 100 metaka.\n" +
+                            "-5 PoJena mod traje sve dog igrac ne dodje do -5 PoJena.\n" +
+                            "10 Minuta mod traje dok 10 minuta ne prodje\n" +
+                            "Perfekcionizam mod traje sve dok ne upucate dobrog lika\n" +
+                            "...i to je to!");
                     }
                     tut = 3;
                 }
@@ -406,6 +473,18 @@ namespace Primitivni_Doom___Treci_put_pravim_novi_projekat____
                     ZavrsiButton.PerformClick();
                 }
             }
+
+            // -5 POJENA MOD
+            if (mode == 4)
+            {
+                if (pojeni == -5)
+                {
+                    PauseButton.PerformClick();
+                    ZavrsiButton.PerformClick();
+                }
+            }
+
+            // PERFEKCIONIZAM MOD (sav kod je u DobarLik.Click)
 
             // BESKONACNO MOD (NISTA XDD)
         }
